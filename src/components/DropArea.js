@@ -12,8 +12,8 @@ const DropArea = ({ onDrop }) => {
                 setShowDrop(false);
             }}
             onDragOver={event => event.preventDefault()}
-            className={showDrop ? "drop_area" : "hide_drop"}
-        >Drop Here</div>
+            className={showDrop ? "drop-area" : "hide-drop"}
+        ></div>
     )
 };
 

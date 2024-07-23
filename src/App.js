@@ -54,7 +54,7 @@ const App = () => {
         setActiveChampion={setActiveChampion}
         onDrop={onDrop}
       />
-      <Tier
+      {/* <Tier
         champion={champion}
         tier="C"
         setActiveChampion={setActiveChampion}
@@ -77,7 +77,7 @@ const App = () => {
         tier="F"
         setActiveChampion={setActiveChampion}
         onDrop={onDrop}
-      />
+      /> */}
       <Tier
         champion={champion}
         tier="champions"
